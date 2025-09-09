@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../media/milky_way_sky.jpg); /* https://www.pexels.com/photo/milky-way-illustration-1169754/ */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.margintop {
+	margin-top: 15vmin;
+}
+
+.margintop2 {
+	margin-top: 10vmin;
+}
+
+.back {
+	position: fixed; /* always be at the specified position */
+	right: 1vw; /* offsets it away from the right */
+	top: 5vh; /* offsets it away from the top */
+}

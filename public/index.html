@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+		<!-- Font awesome icons -->
+		 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+		<!-- External CSS files go here -->
+		<link href="css/backgroundvideo.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<!-- Video background -->
+		<video autoplay loop muted plays-inline class="backgroundvideo">
+			<source src="../media/travelling_through_space.mov" type="video/mp4"> <!-- https://www.youtube.com/watch?v=c2h1T06-3vQ -->
+		</video>
+
+		<main>
+			<div class="d-flex flex-column justify-content-center align-items-center vh-100">
+				<div class="d-flex justify-content-center align-items-center vh-100">
+					<div class="container">
+						<div class="row text-center text-light"> <!-- Make a row division -->
+							<div class="container col-lg-4 col-md-6 col-sm-12 mb-4"> <!-- Then put a responsive container inside -->
+								<p class="display-1">FIND VULNERA-<br>BILITIES</p>
+								<i class="fas fa-search" style="font-size:7vmin"></i>
+							</div>
+							<div class="container col-lg-4 col-md-6 col-sm-12 mb-4">
+								<p class="display-1">LOG REPORTS</p>
+								<i class="fas fa-list" style="font-size:7vmin"></i>
+							</div>
+							<div class="container col-lg-4 col-md-6 col-sm-12">
+								<p class="display-1">EMBARK ON QUESTS</p>
+								<i class="fas fa-scroll" style="font-size:7vmin"></i>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="container text-center">
+					<p class="text-light fs-3">This is the bug bounty guild. Police the system to keep its users safe. Complete quests to earn credits to have a chance to obtain prestigious characters. Climb the ranks by accumulating credits.</p>
+					<p class="fs-4"><a href="characterindex.html" class="text-secondary">View character index</a></p>
+					<p class="text-light fs-5 d-none" id="register">Have what it takes to join the bug bounty guild? <a href="register.html" class="text-light">Join now.</a></p>
+					<p class="fs-2 d-none" id="login"><a href="profile.html" class="text-light">Go to profile</a></p>
+				</div>
+			</div>
+		</main>
+		<!-- Bootstrap JS (include the Bootstrap scripts before the end of the body section) -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+		<!-- External JS files go here -->
+		<script src="js/home.js" type="text/javascript"></script>
+	</body>
+</html>

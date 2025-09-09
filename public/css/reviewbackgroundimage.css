@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../media/black-space.png); /* https://wallpapers.com/background/black-space-background-jit56vdbvdw15k18.html */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}

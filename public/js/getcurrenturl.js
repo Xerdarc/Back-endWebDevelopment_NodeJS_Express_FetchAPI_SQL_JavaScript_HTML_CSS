@@ -1,0 +1,2 @@
+const currenturl = window.location.protocol + "//" + window.location.host; // to be passed as an argument in fetchMethod() in the back end to front end integration files
+console.log("Current URL: ", currenturl);

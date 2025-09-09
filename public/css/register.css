@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.loginprompt {
+	position: fixed; /* always be at the specified position */
+	right: 0; /* stays on the right */
+	top: 0; /* stays on the top */
+}
+
+.home {
+	position: fixed; /* always be at the specified position */
+	left: 1vw; /* offsets it away from the right */
+	top: 1vh; /* offsets it away from the top */
+}

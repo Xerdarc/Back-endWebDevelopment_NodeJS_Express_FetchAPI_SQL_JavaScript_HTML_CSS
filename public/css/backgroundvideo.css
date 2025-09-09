@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.backgroundvideo {
+	position: absolute;
+	z-index: -1; /* behind all other layers */
+	width: 100vw; /* setss the media to always match browser dimensions */
+	height: 100vh;
+	object-fit: cover; /* makes sure the video covers the whole page */
+	filter: brightness(75%) /* darker video */
+}

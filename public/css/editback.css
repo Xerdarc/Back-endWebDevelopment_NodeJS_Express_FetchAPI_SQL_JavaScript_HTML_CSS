@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.editback {
+	position: fixed; /* always be at the specified position */
+	right: 1vw; /* offsets it away from the right */
+	top: 5vh; /* offsets it away from the top */
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#reviews {
+	max-height: 50vh; /* The content does not span the whole height of the screen */
+	overflow-y: auto; /* CSS chooses what happens when content is overflowing, in this case it is automatic but a scrollbar is being added */
+}
+
+.back {
+	position: fixed; /* always be at the specified position */
+	right: 1vw; /* offsets it away from the right */
+	top: 5vh; /* offsets it away from the top */
+}

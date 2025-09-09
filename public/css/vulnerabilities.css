@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../media/sky-space-dark-galaxy.jpg); /* https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/ */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.title {
+	margin-top: 8vh;
+	text-align: center
+}
+
+#vulnerabilitieslist {
+	max-height: 50vh; /* The content does not span the whole height of the screen */
+	overflow-y: auto; /* CSS chooses what happens when content is overflowing, in this case it is automatic but a scrollbar is being added */
+}

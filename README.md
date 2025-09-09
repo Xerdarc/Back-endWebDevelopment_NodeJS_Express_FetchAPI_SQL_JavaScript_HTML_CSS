@@ -1,4 +1,3 @@
-# Starter Repository for Assignment
 This application handles a bug bounty system. Users can register and modify their accounts, log and view vulnerabilities, and create reports that associate users to vulnerabilities or alter the status of vulnerabilities.
 
 The application also has gamification aspects where users can earn credits for various accomplishments (quests). Users can view quests to complete, earning credits which can be used to spin the wheel and stand a chance to obtain prestigious characters, motivating users to enhance their statistics. Upon embarking on a quests, the system redirects the user to the corresponding quest.
@@ -87,6 +86,3 @@ usercharrel(id, user_id, character_id)
 users(id, username, password, created_on, credits)
 
 vulnerabilities(id, type, description, points, user_id)
-
-Changes from CA1
-- User reputation => User credits
